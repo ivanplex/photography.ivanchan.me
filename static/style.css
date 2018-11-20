@@ -1,0 +1,42 @@
+body {
+	background-color: #010101;
+	margin: 0;
+}
+
+.title{
+	position: absolute;
+	color: #FFF;
+	text-transform: uppercase;
+	list-style-type: none;
+	margin-top: 50px;
+	font-size: 30px;
+	padding: 10px 20px 10px 80px;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.img-box {
+	height: 100vh;
+	float:right;
+	background-image: url(../img/Tom-Etges.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@media (orientation: portrait) {
+	.img-box {
+		width: 100%;
+		background-position: calc(50% + 80px) 50%;
+	}
+}
+
+
+@media (orientation: landscape) {
+
+	.img-box {
+		width: 100vh;
+		min-width: 75%;
+		background-position: 50% 35%;
+	}
+
+}
+
