@@ -17,7 +17,7 @@ body {
 .img-box {
 	height: 100vh;
 	float:right;
-	background-image: url(../img/Tom-Etges.jpg);
+	background-image: url(../img/Tom-Etges-min.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
